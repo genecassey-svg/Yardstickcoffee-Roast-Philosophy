@@ -1,1 +1,1 @@
-# Coffee Roast Philosophy
+Upload all files to your GitHub Pages repository.
