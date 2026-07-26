@@ -1,1 +1,1 @@
-console.log('Portfolio loaded');
+document.getElementById('theme').onclick=()=>document.body.classList.toggle('light');
