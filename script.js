@@ -1,0 +1,5 @@
+const chapters=["OUR ROASTING PHILOSOPHY", "OUR ROASTER"S COMMITMENT", "Principle 1: Origin First", "QUALITY DEFINITION", "ROAST STYLE FRAMEWORK", "PROFILE DEVELOPMENT PHILOSOPHY", "DECISION-MAKING FRAMEWORK", "ROAST DEFECT PHILOSOPHY", "CUPPING PHILOSOPHY", "CONTINUOUS IMPROVEMENT", "ROASTING FRAMEWORK & PARAMETER GUIDELINES"];
+const tabs=document.getElementById('tabs'),t=document.getElementById('title'),c=document.getElementById('content');
+chapters.forEach((x,i)=>{let b=document.createElement('button');b.textContent=(i+1)+'. '+x;b.onclick=()=>load(i,b);tabs.appendChild(b);});
+async function load(i,b){document.querySelectorAll('button').forEach(x=>x.classList.remove('active'));b.classList.add('active');t.textContent=chapters[i];let r=await fetch(`chapters/${String(i+1).padStart(2,'0')}.html`);c.innerHTML=await r.text();}
+tabs.firstChild.click();
