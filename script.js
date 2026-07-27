@@ -1,4 +1,4 @@
-const ch=['Our Roasting Philosophy', "Our Roaster's Commitment", 'Principle 1: Origin First', 'Quality Definition', 'Roast Style Framework', 'Profile Development Philosophy', 'Decision-Making Framework', 'Roast Defect Philosophy', 'Cupping Philosophy', 'Continuous Improvement', 'Roasting Framework & Parameter Guidelines'];let cur=0;const nav=document.getElementById('nav');const t=document.getElementById('t');const c=document.getElementById('c');
-function render(f=''){nav.innerHTML='';ch.forEach((x,i)=>{if(x.toLowerCase().includes(f)){let a=document.createElement('a');a.textContent=(i+1)+'. '+x;a.href='#';a.onclick=e=>{e.preventDefault();load(i)};if(i===cur)a.className='active';nav.appendChild(a);}})}
-async function load(i){cur=i;render(document.getElementById('s').value.toLowerCase());t.textContent=ch[i];c.innerHTML=await (await fetch('chapters/'+String(i+1).padStart(2,'0')+'.html')).text();p.disabled=i==0;n.disabled=i==ch.length-1;}
-s.oninput=()=>render(s.value.toLowerCase());p.onclick=()=>load(cur-1);n.onclick=()=>load(cur+1);render();load(0);
+const nav=document.getElementById('nav');const secs=[...document.querySelectorAll('.chapter')];
+CHAPTERS.forEach((t,i)=>{const b=document.createElement('button');b.textContent=(i+1)+'. '+t;b.onclick=()=>show(i);nav.appendChild(b);});
+function show(i){secs.forEach((s,n)=>s.style.display=n===i?'block':'none');document.querySelectorAll('nav button').forEach((b,n)=>b.classList.toggle('active',n===i));}
+show(0);
