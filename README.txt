@@ -1,1 +1,0 @@
-Upload index.html into your project. Replace placeholder sections with full content.
