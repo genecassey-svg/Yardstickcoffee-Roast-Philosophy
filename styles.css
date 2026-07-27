@@ -1,0 +1,1 @@
+body{margin:0;display:flex;font-family:system-ui;background:#f5f1ea}aside{width:280px;background:#221d19;color:#fff;height:100vh;padding:20px;box-sizing:border-box}button{display:block;width:100%;padding:10px;background:none;border:0;color:#ddd;text-align:left}button.active{background:#6f4e37}main{padding:40px;flex:1}.chapter{display:none}.chapter.active{display:block}

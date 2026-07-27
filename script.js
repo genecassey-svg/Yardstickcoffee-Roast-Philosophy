@@ -1,0 +1,1 @@
+const b=[...document.querySelectorAll('button')],s=[...document.querySelectorAll('.chapter')];function sh(id){s.forEach(x=>x.classList.remove('active'));b.forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelector(`[data-target="${id}"]`).classList.add('active')}b.forEach(x=>x.onclick=()=>sh(x.dataset.target));sh('c0');
