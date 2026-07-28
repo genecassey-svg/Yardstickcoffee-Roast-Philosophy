@@ -1,167 +1,296 @@
-# Yardstick Coffee Roast Philosophy
+# ☕ Yardstick Coffee Roast Philosophy
 
-A practical roasting philosophy and decision-making framework developed for consistent, repeatable, and quality-focused coffee roasting.
+<p align="center">
+  <strong>A practical, science-based coffee roasting philosophy and decision-making framework.</strong>
+</p>
 
-🌐 **Live Website**
-https://genecassey-svg.github.io/Yardstickcoffee-Roast-Philosophy/
+<p align="center">
+  Designed for specialty coffee roasters seeking consistency, repeatability, and exceptional cup quality.
+</p>
 
----
+<p align="center">
 
-## About
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![License](https://img.shields.io/badge/License-MIT-green)
+![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-success)
 
-This project documents the roasting philosophy used to guide production roasting, quality control, and continuous improvement.
-
-Rather than prescribing fixed roast recipes, it provides a framework for making consistent roasting decisions based on:
-
-- Coffee quality
-- Roast dynamics
-- Sensory evaluation
-- Production consistency
-- Continuous learning
-
-The philosophy emphasizes that roasting is the controlled transformation of green coffee into its highest sensory potential while preserving the unique characteristics of its origin.
+</p>
 
 ---
 
-## Contents
+# 🌐 Live Website
 
-The document includes:
+## https://genecassey-svg.github.io/Yardstickcoffee-Roast-Philosophy/
 
+---
+
+# 📖 About
+
+The **Yardstick Coffee Roast Philosophy** is a comprehensive roasting guide built around one principle:
+
+> **Every roast should intentionally maximize sweetness, clarity, balance, and origin expression.**
+
+Instead of relying on fixed recipes, this framework emphasizes understanding heat transfer, roast momentum, sensory evaluation, and continuous improvement.
+
+This guide combines roasting theory, production practices, SCA cupping principles, and practical parameter adjustments into one reference.
+
+---
+
+# 📚 Table of Contents
+
+- About
 - Roast Philosophy
-- Core Roasting Principles
-- Roast Development Goals
-- Decision-Making Framework
-- Roast Defect Philosophy
-- Cupping Philosophy
+- Core Principles
+- Roast Decision Framework
+- Roast Defects
+- SCA Cupping Protocol
 - Continuous Improvement
-- Roasting Framework & Parameter Guidelines
-- Roast Parameters
-  - Charge Temperature
-  - Gas Adjustments
-  - Airflow Adjustments
-  - Drum Speed
-  - First Crack Management
+- Roasting Parameters
+- Charge Temperature
+- Gas Adjustments
+- Airflow
+- Drum Speed
+- First Crack Management
+- Project Structure
+- Technologies
+- Future Improvements
+- License
 
 ---
 
-## Roast Philosophy
+# ☕ Roast Philosophy
 
-The framework is built around several guiding principles:
+Our philosophy is based on five objectives:
 
-- Every coffee deserves an intentional roast.
-- Sweetness is the primary quality indicator.
-- Roasting should reveal origin, not hide it.
-- Consistency is achieved through repeatable processes.
-- Every roast provides an opportunity to learn.
+- Maximize Sweetness
+- Preserve Origin Character
+- Develop Balanced Acidity
+- Build Appropriate Body
+- Produce a Clean Finish
 
----
-
-## Decision-Making
-
-During roast evaluation, every coffee is assessed for:
-
-- Sweetness
-- Acidity
-- Body
-- Finish
-- Clarity
-
-These attributes guide adjustments to roast development, heat application, airflow, and drop point.
+Every roasting decision should support these goals.
 
 ---
 
-## Roast Defects
+# 🧠 Core Principles
 
-Defects are evaluated by sensory impact rather than bean color alone.
-
-The guide discusses:
-
-- Underdeveloped roasts
-- Baked roasts
-- Scorched roasts
-
-Each defect includes:
-
-- Sensory indicators
-- Likely causes
-- Recommended corrective actions
+- Every coffee is unique.
+- Roast for flavor, not color.
+- Energy must be controlled.
+- Data supports decisions.
+- Sensory evaluation validates every roast.
+- Consistency is achieved through continual improvement.
 
 ---
 
-## Cupping
+# 🎯 Roast Decision Framework
 
-Every production roast should be evaluated using a standardized cupping procedure based on the SCA Cupping Protocol.
+Every roast is evaluated by asking:
 
-Evaluation focuses on:
+✔ Is sweetness increasing?
 
-- Aroma
-- Sweetness
-- Acidity
-- Body
-- Finish
-- Balance
+✔ Is acidity pleasant and balanced?
 
----
+✔ Is the body appropriate?
 
-## Continuous Improvement
+✔ Is the finish clean?
 
-Every roast follows the same improvement cycle:
-
-1. Review roast data.
-2. Cup the coffee.
-3. Compare results with objectives.
-4. Document lessons learned.
-5. Refine roast profiles when necessary.
+✔ Are origin characteristics still present?
 
 ---
 
-## Built With
+# 🔥 Roast Defects
+
+The framework identifies defects by **cup quality**, not simply roast color.
+
+### Underdeveloped
+
+Indicators
+
+- Peanut
+- Grainy
+- Vegetal
+- Hay-like
+
+Response
+
+Increase development energy.
+
+---
+
+### Baked
+
+Indicators
+
+- Flat
+- Cardboard
+- Dull
+- Dry Finish
+
+Response
+
+Improve roast momentum.
+
+---
+
+### Scorched
+
+Indicators
+
+- Burnt
+- Bitter
+- Ashy
+- Uneven Surface
+
+Response
+
+Reduce initial heat application.
+
+---
+
+# ☕ SCA Cupping Protocol
+
+Every production roast is evaluated through cupping.
+
+## Materials
+
+- Coffee beans
+- Burr grinder
+- Scale
+- Cupping bowls
+- Cupping spoons
+- Hot water (93°C)
+- Timer
+
+## Procedure
+
+1. Grind 8.25 g coffee per 150 mL water.
+2. Smell the dry fragrance.
+3. Pour hot water.
+4. Wait 4 minutes.
+5. Break the crust.
+6. Remove remaining foam.
+7. Allow to cool.
+8. Taste and evaluate.
+
+---
+
+## Evaluation Categories
+
+| Category | Importance |
+|-----------|------------|
+| Aroma | ⭐⭐⭐⭐⭐ |
+| Sweetness | ⭐⭐⭐⭐⭐ |
+| Acidity | ⭐⭐⭐⭐ |
+| Body | ⭐⭐⭐⭐ |
+| Finish | ⭐⭐⭐⭐⭐ |
+| Balance | ⭐⭐⭐⭐⭐ |
+
+---
+
+# 📈 Continuous Improvement
+
+After every roast:
+
+- Review roast data
+- Cup the coffee
+- Compare with objectives
+- Document lessons learned
+- Refine roast profiles
+
+Every roast becomes data for the next roast.
+
+---
+
+# ⚙ Roasting Parameters
+
+This guide explains practical parameter adjustments for:
+
+- Charge Temperature
+- Gas
+- Airflow
+- Drum Speed
+- First Crack Management
+
+Each section explains:
+
+- Why it matters
+- When to adjust
+- Expected impact
+- Risks
+- Sensory outcomes
+
+---
+
+# 📂 Project Structure
+
+```
+Yardstickcoffee-Roast-Philosophy/
+│
+├── index.html
+├── README.md
+├── LICENSE
+└── assets/
+```
+
+---
+
+# 💻 Technologies
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
-
-Hosted using **GitHub Pages**.
-
----
-
-## Repository Structure
-
-```
-/
-├── index.html
-├── README.md
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-└── LICENSE
-```
+- JavaScript
+- GitHub Pages
 
 ---
 
-## Purpose
+# 🚀 Future Improvements
 
-This repository serves as:
+Planned additions include:
 
-- A production roasting reference
-- A training resource for coffee roasters
-- Documentation of Yardstick Coffee's roasting philosophy
-- A living document that evolves through continuous improvement
-
----
-
-## License
-
-This project is intended as internal documentation unless otherwise specified.
-
-If shared publicly, please credit Yardstick Coffee when referencing or adapting the framework.
+- Roast curve illustrations
+- Interactive roast calculator
+- Roast defect image library
+- Bean density calculator
+- Development Time Ratio calculator
+- Mobile optimization
+- Dark mode
+- Search functionality
 
 ---
 
-## Author
+# 🤝 Contributions
 
-Developed and maintained by **Gene Cassey**.
+Suggestions and improvements are welcome.
+
+Feel free to fork the repository or submit a pull request.
+
+---
+
+# 📄 License
+
+This project is released under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+**Gene Cassey**
+
+Coffee Roaster • Coffee Educator • Specialty Coffee Professional
 
 GitHub:
+
 https://github.com/genecassey-svg
+
+---
+
+<p align="center">
+
+**"Every roast is an opportunity to learn."**
+
+☕ Happy Roasting
+
+</p>
